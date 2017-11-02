@@ -9,3 +9,17 @@ CREATE TABLE USER (
     constraint user_unique_1 unique (username),
     primary key (id)
 );
+
+
+-- =================================
+-- TABLE PRODUCTO 
+-- =================================
+
+CREATE TABLE PRODUCTO (
+    id                       int not null IDENTITY,
+    nombre                 	 varchar(100) not null,
+    marca                	 varchar(100) not null,
+    is_enabled               bool not null default true,
+    version                  int default 0,
+    primary key (id)
+);

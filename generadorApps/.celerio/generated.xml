@@ -150,6 +150,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target/celerio-maven-plugin/collisions/src/main/resources/localization/messages.properties</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-jsf2-spring-conversation</pack>
+      <template>src/main/resources/localization/messages.p.vm.properties</template>
+      <size>4634</size>
+      <path>target/celerio-maven-plugin/collisions/src/main/resources/localization/messages.properties</path>
+      <lastMod>1509629436000</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>src/main/resources/localization/domain/README.txt</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-backend-jpa</pack>
@@ -296,7 +306,7 @@
       <template>logo.png</template>
       <size>11100</size>
       <path>src/main/webapp/resources/img/logo.png</path>
-      <lastMod>1509625597000</lastMod>
+      <lastMod>1509629436000</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -730,13 +740,23 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target/celerio-maven-plugin/collisions/src/main/resources/localization/application.xml</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-backend-jpa</pack>
+      <template>src/main/resources/localization/application.p.vm.xml</template>
+      <size>595</size>
+      <path>target/celerio-maven-plugin/collisions/src/main/resources/localization/application.xml</path>
+      <lastMod>1509629435000</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>target/celerio-maven-plugin/collisions/src/main/config/celerio-maven-plugin/nonamespace.xsd</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-jsf2-spring-conversation</pack>
       <template>src/main/config/celerio-maven-plugin/nonamespace.xsd</template>
       <size>873</size>
       <path>target/celerio-maven-plugin/collisions/src/main/config/celerio-maven-plugin/nonamespace.xsd</path>
-      <lastMod>1509625597000</lastMod>
+      <lastMod>1509629436000</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1620,6 +1640,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target/celerio-maven-plugin/collisions/src/main/resources/ValidationMessages.properties</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-backend-jpa</pack>
+      <template>src/main/resources/ValidationMessages.p.vm.properties</template>
+      <size>1071</size>
+      <path>target/celerio-maven-plugin/collisions/src/main/resources/ValidationMessages.properties</path>
+      <lastMod>1509629435000</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>src/main/webapp/error/data-error.xhtml</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-jsf2-spring-conversation</pack>
@@ -1627,6 +1657,16 @@
       <size>1079</size>
       <path>src/main/webapp/error/data-error.xhtml</path>
       <lastMod>1509625597000</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target/celerio-maven-plugin/collisions/src/main/resources/localization/pages/home.xml</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-jsf2-spring-conversation</pack>
+      <template>src/main/resources/localization/pages/home.p.vm.xml</template>
+      <size>2522</size>
+      <path>target/celerio-maven-plugin/collisions/src/main/resources/localization/pages/home.xml</path>
+      <lastMod>1509629436000</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1697,6 +1737,16 @@
       <size>1103</size>
       <path>src/main/generated-java/uoc/tfm/emilio/web/service/ConcurrentModificationResolver.java</path>
       <lastMod>1509625596000</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target/celerio-maven-plugin/collisions/src/main/resources/localization/domain/User.xml</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-backend-jpa</pack>
+      <template>src/main/resources/localization/domain/domain.e.vm.xml</template>
+      <size>1216</size>
+      <path>target/celerio-maven-plugin/collisions/src/main/resources/localization/domain/User.xml</path>
+      <lastMod>1509629435000</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1836,7 +1886,7 @@
       <template>bootstrap/pom.boot.vm.xml</template>
       <size>34140</size>
       <path>target/celerio-maven-plugin/collisions/pom.xml</path>
-      <lastMod>1509625594000</lastMod>
+      <lastMod>1509629434000</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1950,6 +2000,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target/celerio-maven-plugin/collisions/src/main/resources/hibernate.properties</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-backend-jpa</pack>
+      <template>src/main/resources/hibernate.p.vm.properties</template>
+      <size>2029</size>
+      <path>target/celerio-maven-plugin/collisions/src/main/resources/hibernate.properties</path>
+      <lastMod>1509629435000</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>src/main/generated-java/uoc/tfm/emilio/web/util/MessageBundle.java</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-jsf2-spring-conversation</pack>
@@ -2007,6 +2067,16 @@
       <size>1256</size>
       <path>src/main/generated-java/uoc/tfm/emilio/web/domain/UserLazyDataModel.java</path>
       <lastMod>1509625597000</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target/celerio-maven-plugin/collisions/src/main/sql/h2/generated/01-create.sql</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-backend-jpa</pack>
+      <template>src/main/sql/h2/01-create.p.vm.sql</template>
+      <size>788</size>
+      <path>target/celerio-maven-plugin/collisions/src/main/sql/h2/generated/01-create.sql</path>
+      <lastMod>1509629435000</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2196,7 +2266,7 @@
       <template>src/main/config/celerio-maven-plugin/celerio.xsd</template>
       <size>105572</size>
       <path>target/celerio-maven-plugin/collisions/src/main/config/celerio-maven-plugin/celerio.xsd</path>
-      <lastMod>1509625597000</lastMod>
+      <lastMod>1509629436000</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>

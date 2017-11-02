@@ -10,7 +10,7 @@
   <tables>
     <table name="USER" type="TABLE" schemaName="PUBLIC" catalog="GENERADORAPPS">
       <columns>
-        <column name="ID" columnDef="(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_BD3187E3_B630_4076_B27D_75CAA720D711)" decimalDigits="0" autoIncrement="true" nullable="false" ordinalPosition="1" size="10" type="INTEGER"/>
+        <column name="ID" columnDef="(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_55DC7F43_2D9C_41A1_BB46_D0D33A27AD01)" decimalDigits="0" autoIncrement="true" nullable="false" ordinalPosition="1" size="10" type="INTEGER"/>
         <column name="USERNAME" decimalDigits="0" autoIncrement="false" nullable="false" ordinalPosition="2" size="100" type="VARCHAR"/>
         <column name="PASSWORD" decimalDigits="0" autoIncrement="false" nullable="false" ordinalPosition="3" size="100" type="VARCHAR"/>
         <column name="IS_ENABLED" columnDef="TRUE" decimalDigits="0" autoIncrement="false" nullable="false" ordinalPosition="4" size="1" type="BOOLEAN"/>

@@ -24,7 +24,7 @@
         <database.host>localhost</database.host>
         <database.user>${project.name}</database.user>
         <database.password>${project.name}</database.password>
-
+    	<jetty.port>9090</jetty.port>
         <!-- **** CHANGE THE PROPERTIES BELOW TO USE YOUR OWN DATABASE **** -->
         <!-- **** DO NOT USE A PRODUCTION DATABASE **** -->
         <jdbc.type>h2</jdbc.type><!-- see 'db' profile, it is used to find the sql script -->
@@ -67,7 +67,7 @@
         <application.description>${project.description}</application.description>
         <!-- host port where the application will be deployed -->
         <application.host>localhost</application.host>
-        <application.port>8080</application.port>
+        <application.port>9090</application.port>
         <application.contextpath>/generadorApps</application.contextpath>
         <!-- logs -->
         <log.target>${project.build.directory}/logs</log.target>
