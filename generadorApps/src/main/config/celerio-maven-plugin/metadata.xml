@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.jaxio.com/schema/celerio">
+  <jdbcConnectivity driver="org.h2.Driver" url="jdbc:h2:~/.h2/generadorApps;MVCC=TRUE;FILE_LOCK=NO" user="generadorApps" password="generadorApps" oracleRetrieveRemarks="false" oracleRetrieveSynonyms="true" reverseIndexes="true" reverseOnlyUniqueIndexes="true" catalog="">
+    <tableNamePatterns/>
+    <tableTypes>
+      <tableType>TABLE</tableType>
+    </tableTypes>
+  </jdbcConnectivity>
+  <databaseInfo databaseMajorVersion="1" databaseMinorVersion="4" databaseProductName="H2" databaseProductVersion="1.4.190 (2015-10-11)" driverMajorVersion="1" driverMinorVersion="4" driverName="H2 JDBC Driver" driverVersion="1.4.190 (2015-10-11)" extraInfo=""/>
+  <tables>
+    <table name="USER" type="TABLE" schemaName="PUBLIC" catalog="GENERADORAPPS">
+      <columns>
+        <column name="ID" columnDef="(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_BD3187E3_B630_4076_B27D_75CAA720D711)" decimalDigits="0" autoIncrement="true" nullable="false" ordinalPosition="1" size="10" type="INTEGER"/>
+        <column name="USERNAME" decimalDigits="0" autoIncrement="false" nullable="false" ordinalPosition="2" size="100" type="VARCHAR"/>
+        <column name="PASSWORD" decimalDigits="0" autoIncrement="false" nullable="false" ordinalPosition="3" size="100" type="VARCHAR"/>
+        <column name="IS_ENABLED" columnDef="TRUE" decimalDigits="0" autoIncrement="false" nullable="false" ordinalPosition="4" size="1" type="BOOLEAN"/>
+        <column name="VERSION" columnDef="0" decimalDigits="0" autoIncrement="false" nullable="true" ordinalPosition="5" size="10" type="INTEGER"/>
+      </columns>
+      <indexes>
+        <indexe columnName="ID" indexName="PRIMARY_KEY_2" nonUnique="false"/>
+        <indexe columnName="USERNAME" indexName="USER_UNIQUE_1_INDEX_2" nonUnique="false"/>
+      </indexes>
+      <importedKeys/>
+      <primaryKeys>
+        <primaryKey>ID</primaryKey>
+      </primaryKeys>
+    </table>
+  </tables>
+</metadata>
