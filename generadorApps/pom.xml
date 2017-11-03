@@ -4,8 +4,8 @@
  ! Documentation: http://www.jaxio.com/documentation/celerio/
  ! Follow us on twitter: @jaxiosoft
  ! Need commercial support ? Contact us: info@jaxio.com
- ! Template pack-jsf2-spring-conversation:bootstrap/pom.boot.vm.xml
- ! Template is part of Open Source Project: https://github.com/jaxio/pack-jsf2-spring-conversation
+ ! Template pack-mypack:bootstrap/pom.boot.vm.xml
+ ! Template is part of Open Source Project: https://github.com/jaxio/pack-mypack
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -24,7 +24,6 @@
         <database.host>localhost</database.host>
         <database.user>${project.name}</database.user>
         <database.password>${project.name}</database.password>
-    	<jetty.port>9090</jetty.port>
         <!-- **** CHANGE THE PROPERTIES BELOW TO USE YOUR OWN DATABASE **** -->
         <!-- **** DO NOT USE A PRODUCTION DATABASE **** -->
         <jdbc.type>h2</jdbc.type><!-- see 'db' profile, it is used to find the sql script -->
@@ -194,23 +193,24 @@
                         <version>${celerio-maven-plugin.version}</version>
                         <executions>
                             <execution>
-                                <id>Generates files using the extracted database schema.</id>
+                                <id>Generando os ficheros extraidos da base de datos esquema.</id>
                                 <goals>
                                     <goal>generate</goal>
                                 </goals>
                             </execution>
                         </executions>
                         <dependencies>
-                            <dependency>
-                                <groupId>com.jaxio.celerio.packs</groupId>
-                                <artifactId>pack-backend-jpa</artifactId>
-                                <version>1.0.4</version>
-                            </dependency>
-                            <dependency>
+                         <dependency>
                                 <groupId>com.jaxio.celerio.packs</groupId>
                                 <artifactId>pack-jsf2-spring-conversation</artifactId>
                                 <version>1.0.4</version>
                             </dependency>
+                        
+                            <dependency>
+                                <groupId>com.jaxio.celerio.packs</groupId>
+                                <artifactId>pack-mypack</artifactId>
+                                <version>1.0.0</version>
+							 </dependency>
                         </dependencies>
                     </plugin>
                 </plugins>
@@ -754,6 +754,10 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.3.5.v20151012</version>
                 <configuration>
+                        <httpConnector>
+				          <!--host>localhost</host-->
+				          <port>9090</port>
+				        </httpConnector>
                     <systemProperties>
                         <systemProperty>
                             <name>org.apache.el.parser.SKIP_IDENTIFIER_CHECK</name>
