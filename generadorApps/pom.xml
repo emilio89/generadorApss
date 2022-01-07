@@ -31,7 +31,7 @@
         <!-- h2 jdbc driver -->
         <jdbc.groupId>com.h2database</jdbc.groupId>
         <jdbc.artifactId>h2</jdbc.artifactId>
-        <jdbc.version>1.4.190</jdbc.version>
+        <jdbc.version>2.0.206</jdbc.version>
 
         <!-- h2 jdbc settings -->
         <jdbc.driver>org.h2.Driver</jdbc.driver>
